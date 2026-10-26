@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+slurm/
+checkpoints/
+*.pt
+*.safetensors
+*.mid
+*.wav

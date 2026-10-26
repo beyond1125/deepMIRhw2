@@ -1,0 +1,20 @@
+# Python 3.10
+# CUDA 12.4 wheel of torch; for another CUDA version or CPU see https://pytorch.org/get-started/locally/
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0+cu124
+transformers==5.20.2
+safetensors==0.8.0
+tokenizers==0.23.3
+miditok==3.1.0
+symusic==0.6.0
+miditoolkit==1.0.1
+pretty_midi==0.2.11.post0
+numpy==2.2.6
+
+# Metrics (TA eval_basic.py / eval_bonus.py)
+pandas==2.3.3
+scipy==1.15.3
+tqdm==4.70.1
+
+# MIDI -> WAV (midi2wav.sh) also needs the fluidsynth binary and a SoundFont (e.g. GeneralUser GS),
+# e.g. `conda install -c conda-forge fluidsynth` or `apt install fluidsynth`.

@@ -1,0 +1,5 @@
+{
+  "A_t1.0_p0.95": {"temperature": 1.0, "top_k": 0, "top_p": 0.95},
+  "B_t1.2_p0.9": {"temperature": 1.2, "top_k": 0, "top_p": 0.9},
+  "C_t0.8_k10": {"temperature": 0.8, "top_k": 10, "top_p": 1.0}
+}
